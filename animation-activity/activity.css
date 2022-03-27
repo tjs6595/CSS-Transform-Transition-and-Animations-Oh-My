@@ -28,16 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {transform: translate(0px, 0px) rotate(0deg)}
+  to {transform: translate(0px, 34px) rotate(45deg)}
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {transform: scale(0)}
+  to {transform: scale(0)}
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {transform: translate(0px, 0px) rotate(0deg)}
+  to {transform: translate(0px, -34px) rotate(-45deg)}
 }
